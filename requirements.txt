@@ -1,0 +1,140 @@
+# 10-Minute Hardtekk Live Performance
+
+This project generates a dark, aggressive 10-minute hardtekk-style live performance demo in Python 3.
+
+## Run examples
+
+```bash
+python3 hardtekk_live.py --style brutal --output hardtekk_brutal.wav
+python3 hardtekk_live.py --style club --output hardtekk_club.wav
+python3 hardtekk_live.py --style structured --output hardtekk_structured.wav
+```
+
+## Styles
+
+- brutal: heavier kick, denser hats, more aggressive lead and bass
+- club: punchier, cleaner, more dancefloor-friendly and mix-ready
+- structured: section-labeled arrangement with transitions and breakdowns
+
+## Section map
+
+- Intro / build
+- Main groove
+- Peak intensity
+- Breakdown / reset
+- Mad rush
+- Second peak
+- Final impact
+
+## Files
+
+- `hardtekk_live.py` — audio generator
+- `requirements.txt` — dependency list
+
+## Requirements
+
+```bash
+pip install numpy
+```
+
+This is designed as an easy run-ready live-performance concept, not a full DAW session.
+
+# 10-Minute Hardtekk Live Performance
+
+This project generates a dark, aggressive 10-minute hardtekk-style live performance demo in Python 3.
+
+## Run examples
+
+```bash
+python3 hardtekk_live.py --style brutal --output hardtekk_brutal.wav
+python3 hardtekk_live.py --style club --output hardtekk_club.wav
+python3 hardtekk_live.py --style structured --output hardtekk_structured.wav
+```
+
+## Styles
+
+- brutal: heavier kick, denser hats, more aggressive lead and bass
+- club: punchier, cleaner, more dancefloor-friendly and mix-ready
+- structured: section-labeled arrangement with transitions and breakdowns
+
+## Section map
+
+- Intro / build
+- Main groove
+- Peak intensity
+- Breakdown / reset
+- Mad rush
+- Second peak
+- Final impact
+
+## Files
+
+- `hardtekk_live.py` — audio generator
+- `requirements.txt` — dependency list
+
+## Requirements
+
+```bash
+pip install numpy
+```
+
+This is designed as an easy run-ready live-performance concept, not a full DAW session.
+
+The generator is intentionally simple and procedural so you can easily tweak sections, intensity, and rhythm without needing a full studio setup.
+
+## Quick note
+
+The versions are intentionally different in feel:
+
+- brutal = maximum impact and roughness
+- club = more polished and instantly danceable
+- structured = best for conceptual live sequencing and transitions
+
+You can also extend the `SECTION_ORDER` list to create a more detailed arrangement or change `BPM` to test different tempos.
+
+
+### Requirements
+
+```bash
+pip install numpy
+```
+
+This is a quick procedural synth demo for generating a hardtekk-style performance preview.
+
+
+### To run
+
+```bash
+python3 hardtekk_live.py --style brutal --output hardtekk_brutal.wav
+python3 hardtekk_live.py --style club --output hardtekk_club.wav
+python3 hardtekk_live.py --style structured --output hardtekk_structured.wav
+```
+
+This gives you three versions of the same 10-minute concept with different feels.
+
+
+### Section labels built in
+
+- Intro / build
+- Main groove
+- Peak intensity
+- Breakdown / reset
+- Mad rush
+- Second peak
+- Final impact
+
+These sections are embedded in the data-driven `SECTION_ORDER` list and used by the generation logic.
+
+
+### RESPONSIVE NOTE
+
+If you want an even more advanced version later, I can add:
+- real sidechain pumping
+- filtered noise risers
+- percussive fills
+- melody variation by section
+- a full `midi`/`Ableton`-style arrangement export
+
+for the same concept.
+
+
